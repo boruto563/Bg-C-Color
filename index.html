@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bg-change-color</title>
+</head>
+
+<body>
+    <script>
+        const colors = ["#FF5733", "#33FF57", "#3357FF", "#F1C40F", "#9B59B6"];
+        let index = 0;
+
+        setInterval(() => {
+            document.body.style.backgroundColor = colors[index];
+            index = (index + 1) % colors.length;
+        }, 1000);
+    </script>
+</body>
+
+</html>
