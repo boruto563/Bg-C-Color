@@ -1,1 +1,1 @@
-https://shatrughan007.github.io/Bg-C-Color/
+https://boruto564.github.io/Bg-C-Color/
